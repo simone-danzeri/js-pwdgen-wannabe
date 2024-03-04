@@ -13,6 +13,6 @@ let userColor = prompt('Qual è il tuo colore preferito?')
 //console.log(userColor);
 
 //stampare la pw
-let userPassword = `La tua nuova password è: ${userName}${userLastname}${userColor}23`
+let userPassword = `La tua nuova password è: ${userName}${userLastname}${userColor}23`;
 document.getElementById('message').innerHTML = userPassword;
 console.log(userPassword);
